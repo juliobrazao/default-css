@@ -1,4 +1,4 @@
-# default-css
+# default-css (or Nest.CSS)
 
 CSS preset using 'css-grid' to use on my own projects.
 
