@@ -12,7 +12,9 @@ I used VSCode to write this style and a LESS plugin to load automatically all th
 ### Contact-me!
 
 [My blog on Medium](http://juliobrazao.com)
+
 [LinkedIn](http://linked.in/in/juliobrazao)
+
 [jotabrazao@gmail.com](mailto://jotabrazao@gmail.com)
 
 ...and here on my GH.
