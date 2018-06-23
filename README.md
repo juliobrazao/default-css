@@ -9,6 +9,13 @@ Building from "ground zero", I could set the main sections without use any class
 ## Tools
 I used VSCode to write this style and a LESS plugin to load automatically all the changes to the main CSS file.
 
+## Development Process
+
+1. Basic Desktop-based layout *(Done!)*
+2. Mobile version (for tablets and smartphones)
+3. Fonts setup
+4. Color scheme setup
+
 ### Contact-me!
 
 [My blog on Medium](http://juliobrazao.com)
