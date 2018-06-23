@@ -18,11 +18,14 @@ header {
   text-align: center;
 }
 header h1 {
+  font-family: 'Roboto Slab', serif;
   padding-top: .2em;
   font-size: 3em;
   color: #ffffff;
 }
 header nav {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   padding-top: .65em;
   font-size: 2em;
 }
@@ -37,17 +40,21 @@ header nav a {
   text-align: center;
 }
 #hero h2 {
+  font-family: 'Encode Sans Condensed', sans-serif;
   padding-top: 1.5em;
   font-size: 6em;
   color: #ffffff;
 }
 #hero p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 3.5em;
   color: #ffffff;
 }
 #hero #action button {
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 2em;
   border: 2px solid #ffffff;
   padding: 1em 3em;
@@ -77,11 +84,15 @@ section article {
   padding: 0 10%;
 }
 section article h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 2.5em;
   text-align: center;
   color: #e00031;
 }
 section article p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
   font-size: 2em;
   padding: 5%;
 }
@@ -97,8 +108,10 @@ footer #info {
   grid-column-gap: 10%;
   padding: 4%;
   text-align: justify;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 footer #bottom-info {
   text-align: center;
