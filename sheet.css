@@ -102,27 +102,35 @@ section article p {
   padding: 5%;
 }
 footer {
-  background: #000000;
+  background: #0d0d0d;
   width: 100%;
   height: auto;
   padding: 1% 0;
 }
-footer #info {
+footer section {
   display: grid;
   grid-template-columns: 45% 45%;
   grid-column-gap: 10%;
-  padding: 4%;
   text-align: justify;
-  font-size: 1.2em;
   color: #ffffff;
+}
+footer section h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: 2.2em;
+  text-transform: uppercase;
+}
+footer section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  font-weight: 200;
   line-height: 2em;
 }
-footer #bottom-info {
-  text-align: center;
-}
-footer #bottom-info cite {
+footer cite {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
   color: #ffffff;
 }
