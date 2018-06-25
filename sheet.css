@@ -7,6 +7,13 @@
 img {
   display: none;
 }
+svg {
+  padding: 2em;
+  stroke: #042e6c;
+  stroke-width: 3;
+  width: 40%;
+  height: 40%;
+}
 body {
   font-size: 10px;
   border: none;
