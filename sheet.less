@@ -9,17 +9,18 @@
 img {
     display: none;
 }
-svg {
-    padding: 2em;
-    stroke: lighten(@main, 10%);
-    stroke-width: 3;
-    width: 40%;
-    height: 40%;
-}
 // cores
 @main: rgb(2, 25, 59);
 @branco: lighten(@main, 100%);
 @preto: darken(@main, 100%);
+
+// new colors
+@julio: rgb(60, 170, 80);
+@marie: rgb(170, 60, 90);
+@julia: rgb(180,90,130);
+@nest: rgb(240,160,50);
+@black: rgb(30,30,30);
+@white:rgb(255,255,255);
 
 // root measures
 body {
@@ -29,7 +30,7 @@ body {
 
 // areas
 header {
-    background: @main;
+    background: @marie;
     display: grid;
     grid-template-columns: 20% 40%;
     grid-column-gap: 40%;
@@ -40,7 +41,7 @@ header {
             font-family: 'Roboto Slab', serif;
             padding-top: .2em;
             font-size: 3em;
-            color: @branco;
+            color: @white;
         }
         nav {
             padding-top: .65em;
@@ -50,7 +51,7 @@ header {
                 font-weight: 300;
                 letter-spacing: .05em;
                 margin: 0 .5em;
-                color: @branco;
+                color: @white;
             }
             a:hover {
                 text-decoration: underline; 
@@ -64,7 +65,7 @@ header {
 } 
 
 #hero {
-    background: lighten(@main, 8%);
+    background: lighten(@marie, 8%);
     width: 100%;
     height: 39em;
     text-align: center;
@@ -72,13 +73,13 @@ header {
             font-family: 'Encode Sans Condensed', sans-serif;
             padding-top: 1.5em;
             font-size: 6em;
-            color: lighten(@branco, 10%);
+            color: lighten(@white, 10%);
         }
         p {
             font-family: 'Montserrat', sans-serif;
             font-weight: 300;
             font-size: 3em;
-            color: lighten(@branco, 10%);
+            color: lighten(@white, 10%);
         }
         #action {
             button {
@@ -86,20 +87,20 @@ header {
                 text-transform: uppercase;
                 font-weight: 700;
                 border-radius: 2em;
-                border: 2px solid @branco;
+                border: 2px solid @white;
                 padding: 1em 3em;
                 margin: 2em 1em;
                 background: none;
-                color: @branco;
+                color: @white;
                 }
             .caller {
-                background: @branco;
-                color: @main;
+                background: @marie;
+                color: @branco;
             }
             .caller:hover {
-                background: darken(@main, 2%);
-                color: @branco;
-                border: 2px solid darken(@main, 2%);
+                background: lighten(@nest, 20%);
+                color: darken(@nest, 5%);
+                border: 2px solid darken(@nest, 5%);
             }
         }
 }
@@ -121,7 +122,7 @@ section {
                 font-weight: 500;
                 font-size: 2.5em;
                 //text-align: center;
-                color: @main;
+                color: @black;
             }
             p {
                 //text-align: left;
@@ -131,11 +132,18 @@ section {
                 font-size: 2em;
                 padding: 5%;
             }
-    }
+        }
+        svg {
+            padding: 2em;
+            stroke: lighten(@black, 10%);
+            stroke-width: 3;
+            width: 40%;
+            height: 40%;
+        }
 }
 
 footer {
-    background: lighten(@preto, 5%);
+    background: @black;
     width: 100%;
     height: auto;
     padding: 1% 0;
@@ -181,7 +189,7 @@ footer {
                 }
                 button {
                     font-family: 'Montserrat';
-                    background: lighten(@main, 10%);
+                    background: lighten(@marie, 10%);
                     padding: .8em;
                     margin-top: -.4em;
                     border: none;
