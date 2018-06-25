@@ -6,7 +6,9 @@
     font-family: sans-serif;
     outline: none;
 }
-
+img {
+    display: none;
+}
 // cores
 @main: rgb(2, 25, 59);
 @branco: lighten(@main, 100%);
@@ -46,8 +48,13 @@ header {
             a:hover {
                 text-decoration: underline; 
             }
+            button {
+                display: none;
+            }
         }
-}
+        
+        
+} 
 
 #hero {
     background: lighten(@main, 8%);
@@ -154,3 +161,59 @@ footer {
         }
     
     }
+
+// medium devices like tablets
+@media screen and (max-width: 1066px) {
+    header {
+        display: grid;
+        grid-template-columns: 25% 10%;
+        grid-column-gap: 65%;
+            nav {
+                a {
+                    display: none;
+                }
+                button {
+                    font-family: 'Montserrat';
+                    background: lighten(@main, 10%);
+                    padding: .8em;
+                    margin-top: -.4em;
+                    border: none;
+                    color: @branco;
+                    display: block;
+                    text-transform: uppercase;
+                }
+            }
+    }      
+}
+// small devices like smartphones
+@media screen and (max-width: 666px) {
+    header {
+        display: grid;
+        grid-template-columns: 40% 20%;
+        grid-column-gap: 40%;
+    }
+    #hero {
+        h2 {
+            font-size: 3.5em;
+            padding-bottom: .5em;
+        }
+        p {
+            font-size: 1.8em;
+            padding: 0 3em;
+        }
+        #action {
+            button {
+                margin: .5em 0;
+            }
+        }
+    }
+    section {
+        grid-template-columns: 100%;
+    }
+    footer {
+        section {
+            grid-template-columns: 100%;
+        }
+    }
+
+}

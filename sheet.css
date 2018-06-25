@@ -4,6 +4,9 @@
   font-family: sans-serif;
   outline: none;
 }
+img {
+  display: none;
+}
 body {
   font-size: 10px;
   border: none;
@@ -36,6 +39,9 @@ header nav a {
 }
 header nav a:hover {
   text-decoration: underline;
+}
+header nav button {
+  display: none;
 }
 #hero {
   background: #032a62;
@@ -133,4 +139,48 @@ footer cite {
   font-style: normal;
   text-align: center;
   color: #ffffff;
+}
+@media screen and (max-width: 1066px) {
+  header {
+    display: grid;
+    grid-template-columns: 25% 10%;
+    grid-column-gap: 65%;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav button {
+    font-family: 'Montserrat';
+    background: #042e6c;
+    padding: .8em;
+    margin-top: -0.4em;
+    border: none;
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 666px) {
+  header {
+    display: grid;
+    grid-template-columns: 40% 20%;
+    grid-column-gap: 40%;
+  }
+  #hero h2 {
+    font-size: 3.5em;
+    padding-bottom: .5em;
+  }
+  #hero p {
+    font-size: 1.8em;
+    padding: 0 3em;
+  }
+  #hero #action button {
+    margin: .5em 0;
+  }
+  section {
+    grid-template-columns: 100%;
+  }
+  footer section {
+    grid-template-columns: 100%;
+  }
 }
