@@ -6,9 +6,6 @@
     font-family: sans-serif;
     outline: none;
 }
-img {
-    display: none;
-}
 // cores
 @marie: rgb(50,50,50);
 @black: darken(@marie, 50%);
@@ -112,8 +109,9 @@ section {
             padding: 0 10%;
             h3 {
                 font-family: 'Montserrat', sans-serif;
-                font-weight: 500;
+                font-weight: 700;
                 font-size: 2.5em;
+                text-transform: uppercase;
                 //text-align: center;
                 color: @black;
             }
@@ -128,10 +126,12 @@ section {
         }
         svg {
             padding: 2em;
-            stroke: lighten(@black, 10%);
-            stroke-width: 3;
+            stroke-width: 6;
             width: 40%;
             height: 40%;
+            path {
+                stroke-width: 6;
+            }
         }
 }
 
@@ -145,7 +145,7 @@ footer {
             grid-template-columns: 45% 45%;
             grid-column-gap: 10%;
             text-align: justify;
-            color: @branco;
+            color: @white;
             h4 {
                 font-family: 'Montserrat', sans-serif;
                 font-weight: 400;
@@ -165,7 +165,7 @@ footer {
             font-weight: 300;
             font-style: normal;
             text-align: center;
-            color: @branco;
+            color: @white;
         }
     
     }
@@ -187,7 +187,6 @@ footer {
                     width: 3em;
                     height: 3em;
                     svg {
-                        fill: @white;
                         margin-top: -.9em;
                         width: 80%;
                         height: 80%;

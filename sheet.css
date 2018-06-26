@@ -4,15 +4,12 @@
   font-family: sans-serif;
   outline: none;
 }
-img {
-  display: none;
-}
 body {
   font-size: 10px;
   border: none;
 }
 header {
-  background: #20a39e;
+  background: #323232;
   display: grid;
   grid-template-columns: 20% 40%;
   grid-column-gap: 40%;
@@ -25,7 +22,7 @@ header h1 {
   font-weight: 800;
   padding-top: .2em;
   font-size: 3em;
-  color: #ffffff;
+  color: #b2b2b2;
 }
 header nav {
   padding-top: .65em;
@@ -36,7 +33,7 @@ header nav a {
   font-weight: 300;
   letter-spacing: .05em;
   margin: 0 .5em;
-  color: #ffffff;
+  color: #b2b2b2;
 }
 header nav a:hover {
   text-decoration: underline;
@@ -45,7 +42,7 @@ header nav button {
   display: none;
 }
 #hero {
-  background: #27c5bf;
+  background: #464646;
   width: 100%;
   height: 39em;
   text-align: center;
@@ -54,33 +51,33 @@ header nav button {
   font-family: 'Encode Sans Condensed', sans-serif;
   padding-top: 1.5em;
   font-size: 6em;
-  color: #ffffff;
+  color: #cbcbcb;
 }
 #hero p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 3em;
-  color: #ffffff;
+  color: #cbcbcb;
 }
 #hero #action button {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 2em;
-  border: 2px solid #ffffff;
+  border: 2px solid #b2b2b2;
   padding: 1em 3em;
   margin: 2em 1em;
   background: none;
-  color: #ffffff;
+  color: #b2b2b2;
 }
 #hero #action .caller {
-  background: #20a39e;
-  color: #ffffff;
+  background: #323232;
+  color: #b2b2b2;
 }
 #hero #action .caller:hover {
-  background: #68b6d7;
-  color: #297697;
-  border: 2px solid #297697;
+  background: #656565;
+  color: #252525;
+  border: 2px solid #252525;
 }
 section {
   width: 100%;
@@ -97,9 +94,10 @@ section article {
 }
 section article h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2.5em;
-  color: #1e1e1e;
+  text-transform: uppercase;
+  color: #000000;
 }
 section article p {
   font-family: 'Montserrat', sans-serif;
@@ -110,13 +108,15 @@ section article p {
 }
 section svg {
   padding: 2em;
-  stroke: #383838;
-  stroke-width: 3;
+  stroke-width: 6;
   width: 40%;
   height: 40%;
 }
+section svg path {
+  stroke-width: 6;
+}
 footer {
-  background: #1e1e1e;
+  background: #000000;
   width: 100%;
   height: auto;
   padding: 1% 0;
@@ -126,7 +126,7 @@ footer section {
   grid-template-columns: 45% 45%;
   grid-column-gap: 10%;
   text-align: justify;
-  color: #ffffff;
+  color: #b2b2b2;
 }
 footer section h4 {
   font-family: 'Montserrat', sans-serif;
@@ -146,7 +146,7 @@ footer cite {
   font-weight: 300;
   font-style: normal;
   text-align: center;
-  color: #ffffff;
+  color: #b2b2b2;
 }
 @media screen and (max-width: 1066px) {
   header {
@@ -165,7 +165,6 @@ footer cite {
     height: 3em;
   }
   header nav button svg {
-    fill: #ffffff;
     margin-top: -0.9em;
     width: 80%;
     height: 80%;
