@@ -1,1 +1,6 @@
-<?xml version="1.0" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="460 215 400 400" width="400" height="400"><rect x="460" y="215" width="400" height="50" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)"/><rect x="460" y="565" width="400" height="50" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)"/><rect x="460" y="390" width="400" height="50" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="-30 -30 560 560" width="560" height="560">
+    <path d="M 151.722 0 L 348.278 0 C 432.016 0 500 67.984 500 151.722 L 500 348.278 C 500 432.016 432.016 500 348.278 500 L 151.722 500 C 67.984 500 0 432.016 0 348.278 L 0 151.722 C 0 67.984 67.984 0 151.722 0 Z" style="fill:none;stroke:#000000;stroke-width:20;stroke-linecap:square;stroke-miterlimit:3;"/>
+    <line x1="50" y1="250" x2="450" y2="250" vector-effect="non-scaling-stroke" stroke-width="20" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+    <line x1="50" y1="150" x2="450" y2="150" vector-effect="non-scaling-stroke" stroke-width="20" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+    <line x1="50" y1="350" x2="450" y2="350" vector-effect="non-scaling-stroke" stroke-width="20" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+</svg>
