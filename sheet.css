@@ -12,7 +12,7 @@ body {
   border: none;
 }
 header {
-  background: #aa3c5a;
+  background: #20a39e;
   display: grid;
   grid-template-columns: 20% 40%;
   grid-column-gap: 40%;
@@ -45,7 +45,7 @@ header nav button {
   display: none;
 }
 #hero {
-  background: #c14e6d;
+  background: #27c5bf;
   width: 100%;
   height: 39em;
   text-align: center;
@@ -74,13 +74,13 @@ header nav button {
   color: #ffffff;
 }
 #hero #action .caller {
-  background: #aa3c5a;
+  background: #20a39e;
   color: #ffffff;
 }
 #hero #action .caller:hover {
-  background: #f7cc91;
-  color: #ee951a;
-  border: 2px solid #ee951a;
+  background: #68b6d7;
+  color: #297697;
+  border: 2px solid #297697;
 }
 section {
   width: 100%;

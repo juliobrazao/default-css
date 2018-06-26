@@ -10,17 +10,9 @@ img {
     display: none;
 }
 // cores
-@main: rgb(2, 25, 59);
-@branco: lighten(@main, 100%);
-@preto: darken(@main, 100%);
-
-// new colors
-@julio: rgb(60, 170, 80);
-@marie: rgb(170, 60, 90);
-@julia: rgb(180,90,130);
-@nest: rgb(240,160,50);
-@black: rgb(30,30,30);
-@white:rgb(255,255,255);
+@marie: rgb(50,50,50);
+@black: darken(@marie, 50%);
+@white: lighten(@marie, 50%);
 
 // root measures
 body {
@@ -96,12 +88,12 @@ header {
                 }
             .caller {
                 background: @marie;
-                color: @branco;
+                color: @white;
             }
             .caller:hover {
-                background: lighten(@nest, 20%);
-                color: darken(@nest, 5%);
-                border: 2px solid darken(@nest, 5%);
+                background: lighten(@marie, 20%);
+                color: darken(@marie, 5%);
+                border: 2px solid darken(@marie, 5%);
             }
         }
 }
