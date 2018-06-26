@@ -38,7 +38,8 @@ header {
     height: 5em;
     text-align: center;
         h1 {
-            font-family: 'Roboto Slab', serif;
+            font-family: 'Montserrat', serif;
+            font-weight: 800;
             padding-top: .2em;
             font-size: 3em;
             color: @white;
@@ -188,14 +189,17 @@ footer {
                     display: none;
                 }
                 button {
-                    font-family: 'Montserrat';
-                    background: lighten(@marie, 10%);
-                    padding: .8em;
-                    margin-top: -.4em;
                     border: none;
-                    color: @branco;
+                    background: none;
                     display: block;
-                    text-transform: uppercase;
+                    width: 3em;
+                    height: 3em;
+                    svg {
+                        fill: @white;
+                        margin-top: -.9em;
+                        width: 80%;
+                        height: 80%;
+                    }
                 }
             }
     }      
@@ -204,8 +208,8 @@ footer {
 @media screen and (max-width: 666px) {
     header {
         display: grid;
-        grid-template-columns: 40% 20%;
-        grid-column-gap: 40%;
+        grid-template-columns: 49% 15%;
+        grid-column-gap: 36%;
     }
     #hero {
         h2 {
