@@ -6,10 +6,19 @@
     font-family: sans-serif;
     outline: none;
 }
-// cores
+/* cores
 @marie: rgb(50,50,50);
 @black: darken(@marie, 50%);
-@white: lighten(@marie, 50%);
+@white: lighten(@marie, 50%); */
+
+// cores
+@white: rgb(232, 247, 238);
+@black: rgb(20, 20, 20);
+@earth: rgb(201, 183, 156);
+@wood: rgb(52, 42, 33);
+@marie: rgb(62, 81, 122);
+@julia: rgb(82, 209, 220);
+
 
 // root measures
 body {
@@ -49,6 +58,14 @@ header {
             button {
                 display: none;
             }
+            svg {
+                stroke-width: 3;
+                stroke: @white;
+                fill: @marie;
+                path {
+                    stroke: none;
+                }
+            }
         }
         
         
@@ -76,7 +93,7 @@ header {
                 font-family: 'Montserrat', sans-serif;
                 text-transform: uppercase;
                 font-weight: 700;
-                border-radius: 2em;
+                border-radius: 1.5em;
                 border: 2px solid @white;
                 padding: 1em 3em;
                 margin: 2em 1em;
@@ -84,13 +101,14 @@ header {
                 color: @white;
                 }
             .caller {
-                background: @marie;
-                color: @white;
+                background: @white;
+                color: darken(@julia, 30%);
+                border: 2px solid @white;
             }
             .caller:hover {
-                background: lighten(@marie, 20%);
-                color: darken(@marie, 5%);
-                border: 2px solid darken(@marie, 5%);
+                background: @julia;
+                color: darken(@julia, 30%);
+                border: 2px solid @julia;
             }
         }
 }
@@ -126,11 +144,10 @@ section {
         }
         svg {
             padding: 2em;
-            stroke-width: 6;
             width: 40%;
             height: 40%;
-            path {
-                stroke-width: 6;
+            path, line, polygon {
+                stroke-width:4;
             }
         }
 }
